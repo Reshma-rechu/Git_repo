@@ -11,7 +11,7 @@ node {
             '''{
             "files": [
                 {
-                    "pattern": "Reshma_Repo/*.txt",
+                    "pattern": "Reshma_Repo/*.doc",
                     "target": "dependencies/",
                     "props": "p1=v1;p2=v2"
                 }
@@ -25,7 +25,7 @@ node {
             '''{
             "files": [
                 {
-                    "pattern": "*.txt",
+                    "pattern": "*.doc",
                     "target": "Reshma_Repo",
                     "props": "p1=v1;p2=v2"
                 }
